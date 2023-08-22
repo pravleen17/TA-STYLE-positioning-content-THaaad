@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom Styles */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+.header {
+    background-color: #72A0C1;
+    font-size: 0;
+    padding: 80px 0;
+    width: 100%;
+}
+
+.head {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    float: left;
+}
+
+.nav a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    float: right;
+    margin-right: 32px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 60px;
+}
+
+p {
+    font-size: 16px;
+    color: beige;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+
+.sec1 {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+}
+
+.col {
+    width: 30%;
+    float: left;
+    margin: 1.5%;
+    padding: 60px 0;
+}
+
+.h22 {
+    font-size: 24px;
+    color: slateblue;
+    font-family: 'Roboto', sans-serif;
+}
+
+.p22 {
+    font-size: 17px;
+    color: darkgrey;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.button {
+    background-color: #72A0C1;
+    border: 0;
+    width: 60px;
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.sec2 {
+    background-color: #72A0C1;
+    position: absolute;
+    width: 100%;
+    margin-top: 400px;
+}
+
+.h23 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 40px;
+}
+
+.col1 {
+    width: 22%;
+    float: left;
+    margin: 1.5%;
+    padding: 30px 0;
+}
+
+.rec {
+    width: 230px;
+    height: 320px;
+    border: 2px solid white;
+}
+
+.round {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 36px;
+    margin-top: 40px;
+}
+
+h3 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.recp {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: white;
+    margin-top: -10px;
+}
+
+.sec3 {
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    margin-top: 1100px;
+}
+
+.h24 {
+    font-size: 50px;
+    color: #72A0C1;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 40px;
+}
+
+.p24 {
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.col2 {
+    width: 47%;
+    float: left;
+    margin: 1.5%;
+    padding: 10px 0;
+}
+
+.rectangle {
+    width: 500px;
+    height: 200px;
+}
+
+.h25 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #72A0C1;
+    padding: 10px 0;
+}
+
+.p25 {
+    font-size: 16px;
+    color: black;
+    text-align: left;
+}
+
+.hr {
+    color: black;
+    width: 72%;
+    position: absolute;
+    margin-top: 1820px;
+}
+
+.footer {
+    background-color: white;
+    font-size: 0;
+    padding: 30px 0;
+    width: 100%;
+    position: absolute;
+    margin-top: 1850px;
+}
+
+small {
+    font-size: 16px;
+    color: black;
+    float: left;
+}
+
+.fab {
+    font-size: large;
+    float: right;
+    margin-right: 32px;
+}
+
